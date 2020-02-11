@@ -12,8 +12,11 @@ end
 def find_greater_pair(src)
   answer = []
   while i < src.length do 
-    answer << ()
+    answer << (src[i][0] > src[i][1] ? src[i][0] : src[i][1])
+    i += 1 
 end
+answer 
+end 
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
