@@ -30,4 +30,3 @@ total = 0
 
   total
 end
-end
